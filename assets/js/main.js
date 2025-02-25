@@ -23,7 +23,7 @@
     }
 /* ----- TYPING EFFECT ----- */
    var typingEffect = new Typed(".typedText",{
-      strings : ["Software Engineer","Youtuber","UI/UX Designer"],
+      strings : ["Software Engineer","Youtuber","UI/UX Designer","DevOps Engineer"],
       loop : true,
       typeSpeed : 100, 
       backSpeed : 80,
