@@ -111,6 +111,11 @@ nav{
     padding-inline: 15px;
     margin-inline: 20px;
 }
+
+.nav-link:hover{
+    color: blue;
+}
+
 .nav-menu-btn{
     display: none;
 }
