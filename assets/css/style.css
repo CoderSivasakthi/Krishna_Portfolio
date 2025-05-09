@@ -506,6 +506,11 @@ h3{
     gap: 10px;
     width: 100%;
 }
+.form-submit{
+	display: 100%;
+    gap: 10px;
+    width: 100%;
+}
 .input-field{
     width: 50%;
     height: 55px;
