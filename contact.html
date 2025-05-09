@@ -88,9 +88,27 @@
                     <div class="text-area">
                         <textarea placeholder="Message"></textarea>
                     </div>
-                    <div class="form-button">
-                        <button class="btn">Send <i class="uil uil-message"></i></button>
-                    </div>
+                    
+	            <!-- <div class="form-button">
+                        <button class="btn">Send Mail<i class="uil uil-message"></i></button>
+                    </div> -->
+					
+		   <div class="form-submit" >
+					  
+                        <button class="btn" >Send Mail<i class="uil uil-message"></i></button>
+							 
+			    <button onclick="openWhatsApp()" class="btn blue-btn " >WhatsApp Me</button>
+
+                                  <script>
+                                     function openWhatsApp() {
+                                       const phoneNumber = "+918056201467";
+                                       const message = encodeURIComponent("Hello Krishna !! Good Day. I saw your portfolio and I'm from the recruitment team.");
+                                       const whatsappURL = `https://wa.me/${phoneNumber}?text=${message}`;
+                                  
+                                       window.location.href = whatsappURL;
+                                     }
+                                   </script>
+                      </div>	
                 </div>
              </div>
           </div>
