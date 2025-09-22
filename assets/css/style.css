@@ -649,12 +649,25 @@ p{
   display: flex;
   gap: 10px;
   width: 100%;
+  padding: 2px 0px;
 }
 .form-submit {
   display: 100%;
   gap: 10px;
   width: 100%;
 }
+
+.form-submit button {
+  width: 50%;
+  height: 55px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.form-submit button:hover {
+  background: #00b5e7;
+}
+
 .input-field {
   width: 50%;
   height: 55px;
