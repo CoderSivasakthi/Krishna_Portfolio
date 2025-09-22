@@ -838,6 +838,9 @@ footer {
   .form-inputs {
     flex-direction: column;
   }
+  .form-submit button{
+    width: 100%;
+  }
   .input-field {
     width: 100%;
   }
